@@ -87,7 +87,7 @@ public class BaseClass {
 		//driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		//driver.get("http://localhost/opencart/upload/index.php");
-		driver.get(p.getProperty("appUrl1"));
+		driver.get(p.getProperty("appUrl"));
 		driver.manage().window().maximize();
 		//Thread.sleep(3000);
 	}
